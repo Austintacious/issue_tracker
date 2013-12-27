@@ -18,7 +18,7 @@ feature "User creates an issue", %q{
       fill_in "Title", with: "Broken Link"
       fill_in "Description", with: "The sign in link is broken"
       check "Is reproducible"
-      fill_in "Category", with: "bug"
+      select "Feature Request", from: "Category"
       click_on "Create Issue"
       expect(page).to have_content("Issue was successfully created")
     end
