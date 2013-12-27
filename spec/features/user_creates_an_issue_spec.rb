@@ -30,6 +30,7 @@ feature "User creates an issue", %q{
       click_on "Create Issue"
       expect(page).to have_content("Title can't be blank")
       expect(page).to have_content("Description can't be blank")
+      expect(page).to have_content("Category can't be blank")
     end
   end
   
