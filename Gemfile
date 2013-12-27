@@ -39,6 +39,8 @@ group :test, :development do
   gem 'quiet_assets'
   gem 'sextant'
   gem 'launchy'
+  gem 'shoulda'
+  gem 'valid_attribute'
 end
 
 # Use ActiveModel has_secure_password
