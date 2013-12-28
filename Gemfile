@@ -41,6 +41,7 @@ group :test, :development do
   gem 'launchy'
   gem 'shoulda'
   gem 'valid_attribute'
+  gem 'shoulda-matchers'
 end
 
 # Use ActiveModel has_secure_password

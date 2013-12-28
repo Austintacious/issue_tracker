@@ -30,5 +30,6 @@ describe Issue do
   end
 
   it {should_not have_valid(:severity).when(nil)}
+  it {should belong_to :category}
 
 end
